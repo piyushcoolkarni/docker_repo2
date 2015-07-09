@@ -21,6 +21,8 @@ module.exports = function(grunt) {
                 }
                                 } // nodemon
     });
+    
+    ///Added line to check scp
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-nodemon');
 
