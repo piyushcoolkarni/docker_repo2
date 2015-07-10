@@ -1,4 +1,4 @@
 {
-            "databasestring" : "mongodb://localhost:27017/bookAPI"
+            "databasestring" : "mongodb://FAG_DB_IP:FAG_DB_PORT/bookAPI"
 }
 
