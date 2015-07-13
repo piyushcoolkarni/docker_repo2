@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var app = express();
 
-var db = mongoose.connect(mongodb://config.databasestring,function(err){
+var db = mongoose.connect("mongodb://config.databasestring",function(err){
         if(err)
                     throw err;
 }); //bookAPI is the name of the database
