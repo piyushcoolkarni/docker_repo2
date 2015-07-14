@@ -12,6 +12,7 @@ ADD /config     config
 ADD /controllers controllers
 ADD /initializers initializers
 ADD /models models
+ADD /Routes Routes
 ADD /utility utility
 ADD /node_modules node_modules
 ADD app.js Gruntfile.js package.json ./
