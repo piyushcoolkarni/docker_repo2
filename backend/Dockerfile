@@ -8,7 +8,7 @@ RUN mkdir -p "/data/artifact"
 WORKDIR /data/artifact/
  
 ADD /components components
-ADD /config     config
+ADD /config config
 ADD /controllers controllers
 ADD /initializers initializers
 ADD /models models
