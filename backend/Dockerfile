@@ -15,7 +15,8 @@ ADD /models models
 ADD /Routes Routes
 ADD /node_modules node_modules
 ADD app.js Gruntfile.js package.json ./
- 
+
+EXPOSE 4545 
  
 CMD "grunt"
 
